@@ -464,7 +464,7 @@ export default function Home() {
           {error ? <div className="mx-4 mt-4 rounded-md bg-rose-50 px-4 py-3 text-sm font-medium text-rose-700">{error}</div> : null}
 
           <div className="overflow-x-auto">
-            <table className="min-w-[920px] w-full border-collapse text-left text-sm">
+            <table className="min-w-230 w-full border-collapse text-left text-sm">
               <thead className="bg-slate-50 text-xs font-semibold uppercase tracking-[0.08em] text-slate-500">
                 <tr>
                   <th className="px-4 py-3">Name</th>
